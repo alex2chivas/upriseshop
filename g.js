@@ -22,7 +22,7 @@ function cbCommit (err, sdout, sdin) {
   }
   // Worked
   console.log('Git commit completed')
-  exec(`git push origin master`, cbPush)
+  exec(`git push origin main`, cbPush)
 }
 
 function cbPush (err, sdout, sdin) {

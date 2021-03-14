@@ -4,6 +4,9 @@
   "description": "Uprise Commerce",
   "main": "server.js",
   "type": "module",
+  "engines": {
+    "node": "15.x"
+  },
   "scripts": {
     "gitty": "node g.js",
     "start": "node backend/server",
