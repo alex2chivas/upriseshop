@@ -10,7 +10,7 @@ function cbAdd (err, sdout, sdin) {
     console.log(err)
     return
   }
-  // it worked
+  // it
   console.log('Git add completed')
   exec(`git commit -m "${str}"`, cbCommit)
 }
